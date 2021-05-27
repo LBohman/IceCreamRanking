@@ -12,10 +12,13 @@ export class IceCreamService {
   constructor() {}
   getIceCream() {
     this.icecreams.push(
+
+
       new IceCream('88', 'assets/glassbilder/88.png', 'En klassiker som håller än!')
       );
     this.icecreams.push(
-      new IceCream('Ben And Jerrys', 'assets/glassbilder/benAndJerrys.jpg', 'Sött möter sött i denna kavalkad som är Ben and Jerrys Cookie Dough. Lite söt för min smak men perfekt vid intensivt sockersug.')
+      new IceCream('Ben And Jerrys', 'assets/glassbilder/chocolate-fudge-brownie.png', 'Sött möter sött i denna kavalkad som är Ben and Jerrys Cookie Dough. Lite söt för min smak men perfekt vid intensivt sockersug.')
+
     );
     this.icecreams.push(
       new IceCream('Calippo', 'assets/glassbilder/calippoCola.jpg', 'Cola är ju en av mina favoritsmaker så denna hamnar högt på listan! Lite omständig med sin pop-up förpackning men colasmaken överväger krånglet.')
