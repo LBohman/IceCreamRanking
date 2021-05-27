@@ -13,7 +13,7 @@ export class IceCreamService {
   getIceCream() {
     this.icecreams.push(new IceCream('88', 'assets/glassbilder/88.png'));
     this.icecreams.push(
-      new IceCream('Ben And Jerrys', 'assets/glassbilder/benAndJerrys.jpg')
+      new IceCream('Ben And Jerrys', 'assets/glassbilder/chocolate-fudge-brownie.png')
     );
     this.icecreams.push(
       new IceCream('Calippo', 'assets/glassbilder/calippoCola.jpg')
